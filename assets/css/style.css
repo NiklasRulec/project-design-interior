@@ -15,6 +15,8 @@
 
 html{
     font-size: 62.5%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 img{
@@ -144,9 +146,9 @@ header .interior-img{
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 140vh;
+    height: 120vh;
     background-color: var(--white);
-    padding: 40rem 0 20rem 0;
+    padding: 20rem 0 5rem 0;
 }
 
 .featured h4{
@@ -208,8 +210,8 @@ header .interior-img{
 iframe{
     display: block;
     margin: auto;
-    max-width: 45rem;
-    max-height: 30rem;
+    width: 40rem;
+    height: 25rem;
 }
 
 /* ++++++++++ Touch ++++++++++*/
@@ -413,7 +415,7 @@ footer .footer-links a{
     .featured{
     flex-direction: column;
      padding-top: 30rem;
-     height: 180vh;
+     height: 190vh;
     }
 
     .featured p{
@@ -427,6 +429,13 @@ footer .footer-links a{
 
     .video{
         padding-top: 55rem;
+    }
+
+    iframe{
+        display: block;
+        margin: auto;
+        width: 30rem;
+        height: 20rem;
     }
     
     /* ++++++++++ Touch ++++++++++*/
